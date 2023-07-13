@@ -1,7 +1,6 @@
 cc_library(
     name = "tunaTest2",
     srcs = ["main.cpp"],
-    hdrs = ["main.h"],
     deps = [
         "//mediapipe/framework:calculator_framework",
         "//mediapipe/calculators/core:pass_through_calculator",

@@ -1,10 +1,9 @@
 
-#ifndef Main_H_
-#define Main_H_
+//we don;t using that right know.
 
 #include <iostream>
 
-int startFunction(int argc, char** argv);
 
+extern "C" __declspec(dllexport)
+int startFunction();
 
-#endif

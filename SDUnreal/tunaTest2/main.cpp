@@ -1,6 +1,5 @@
 /// SDUnreal Test program
 
-#include "main.h"
 
 #include <iostream>
 #include <string>
@@ -94,6 +93,9 @@ mediapipe::Status run() {
 
     }
 }
+
+
+extern "C" __declspec(dllexport)
 int startFunction(int argc, char** argv)
 {
     using namespace std;
